@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Namaste Rect BootCamp</title>
+  </head>
+<body>   
+<!-- Adding the tag using Javascript -->
+    <div id="container">Welcome to Namaste Rect BootCamp </div>
+
+    <script>
+    const container = document.getElementById("container");
+    container.setAttribute("class", "democlass");
+
+    const heading = document.createElement("h1");
+    heading.innerHTML = " This code is created by Javascript";
+    heading.setAttribute("class", "democlass");
+    container.appendChild(heading);
+
+    const heading1 = document.getElementsByClassName("democlass");
+    heading1.innerHTML = " Again hello world!";
+
+    heading.setAttribute("class", "headingclass");
+    
+    </script>
+</body>
+</html>
