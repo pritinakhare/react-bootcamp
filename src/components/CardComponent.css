@@ -1,0 +1,47 @@
+:root {
+    --clr-gray-light: #b0bec5;
+  }
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+.designation {
+    color: grey;
+    font-size: 18px;
+}
+.linkedin-info{
+    margin: 24px 0;
+}
+
+  
+.banner-img {
+position: absolute;
+background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+height: 10rem;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.photo {
+width: 8rem;
+clip-path: circle(60px at center);
+margin-top: 4.5rem;
+}
+  
+.name {
+font-weight: bold;
+font-size: 1.5rem;
+}
+  
+  
+ 
