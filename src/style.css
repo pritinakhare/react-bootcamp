@@ -1,0 +1,19 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+.avatar{
+  vertical-align: middle;
+  width: 100px;
+  height: 55px;
+  border-radius: 50%;
+  float: right;
+}
+.search-form{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    display:inline;
+    padding-left: 150px;
+}
